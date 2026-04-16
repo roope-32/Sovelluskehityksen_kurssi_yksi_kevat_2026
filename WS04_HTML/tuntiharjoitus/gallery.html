@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WS04 – Gallery</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/styles.css">
+<link rel="icon" type="image/png" href="images/Laurea.png">
 </head>
 
 <body>
 
+    <!-- HEADER: professional site-style header -->
     <header class="site-header">
         <div class="site-header__content">
             <span class="site-header__kicker">Laurea University of Applied Sciences</span>
@@ -18,68 +20,65 @@
         </div>
     </header>
 
+        <!-- NAV: simple navigation bar with active page highlighting -->
     <nav>
         <a href="index.html">Home</a>
         <a href="gallery.html" class="active">Gallery</a>
         <a href="contact.html">Contact</a>
     </nav>
 
+   
     <div class="layout-grid">
 
+    
         <aside>
-            <h2>Page Layout</h2>
-            <p>CSS provides two modern layout systems for building page structures.</p>
-
-            <h3>Semantic elements</h3>
-            <ul>
-                <li><code>&lt;header&gt;</code> – site or section header</li>
-                <li><code>&lt;nav&gt;</code> – navigation links</li>
-                <li><code>&lt;main&gt;</code> – primary page content</li>
-                <li><code>&lt;aside&gt;</code> – sidebar / supplementary content</li>
-                <li><code>&lt;footer&gt;</code> – site or section footer</li>
-            </ul>
-
             <h3>CSS Flexbox</h3>
             <p>One-dimensional layout — rows <em>or</em> columns. Used here for the navbar.</p>
             <a href="https://www.w3schools.com/css/css3_flexbox.asp" target="_blank" rel="noopener">W3Schools – CSS
                 Flexbox</a>
-
-            <h3>CSS Grid</h3>
-            <p>Two-dimensional layout — rows <em>and</em> columns. Used here for the sidebar + main layout.</p>
-            <a href="https://www.w3schools.com/css/css_grid.asp" target="_blank" rel="noopener">W3Schools – CSS Grid</a>
         </aside>
 
+        
         <main>
 
             <section>
                 <h2>Gallery</h2>
-                <p>This is a paragraph styled with a drop-cap and a coloured left border, carried over from WS03.</p>
-                <img src="./images/Berfin.jpg" alt="Berfin">
+                <p>Tuossa alapuolella on kuva minusta "töissä". Päädyin TV2:een.</p>
+                <img src="./images/Oma_Kuva2.PNG" alt="Minä telkkarissa">
             </section>
 
-            <section>
-                <h2>Ordered List</h2>
-                <ol>
-                    <li>First item</li>
-                    <li>Second item</li>
-                    <li>Third item</li>
-                </ol>
-            </section>
+    
 
             <section>
-                <h2>Unordered List</h2>
+                <h2>Mitä minun päässä liikkuu tuossa yllä olevassa kuvassa?</h2>
                 <ul>
-                    <li>First item</li>
-                    <li>Second item</li>
-                    <li>Third item</li>
+                    <li>Alkaa tää seisominen väsyttää</li>
+                    <li>Ei mitään</li>
+                    <li>Mitäköhän sitä keksisi kurssin lopputyöksi?</li>
                 </ul>
             </section>
 
         </main>
     </div>
 
+         <div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>
+
+</div>
+
+<div class="flex-container">
+  <div class="box">Box 1</div>
+  <div class="box">Box 2</div>
+  <div class="box">Box 3</div>
+</div>
+
     <footer>
-        <p>&copy; 2026 Jari Kovis, Laurea-ammattikorkeakoulu</p>
+        <p>&copy; 2026 Roope Kukkanen, Laurea-ammattikorkeakoulu</p>
     </footer>
 
 </body>
