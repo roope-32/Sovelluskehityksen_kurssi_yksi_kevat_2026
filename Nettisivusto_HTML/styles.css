@@ -19,3 +19,9 @@ footer {
     padding-right: 24px;
     text-align: middle;
 }
+
+img {
+  width: 80%;
+  max-width: 50%;
+  height: auto;
+}
