@@ -1,0 +1,21 @@
+body {
+    background-color: #bed4fe;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+
+.layout-grid,
+footer {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: middle;
+}
