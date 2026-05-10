@@ -1,14 +1,11 @@
 body {
-    background-color: #3b96fd;
+    background-color: #9b9aff;
 }
 
 .container {
     width: 50%;
     margin: 0 auto;
 }
-
-
-
 
 .layout-grid,
 footer {
@@ -46,11 +43,20 @@ img {
     object-fit: contain;
   }
 
-  .navbar-nav .nav-link {
-    color: rgb(255, 72, 72);
-  }
-
   .footer
   {
     color: white;
   }
+
+
+.navbar {
+    background-color: #60a8fa;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar a:hover {
+  color: #3842f8;
+}
