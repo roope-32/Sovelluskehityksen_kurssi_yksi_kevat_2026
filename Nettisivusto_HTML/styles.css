@@ -1,5 +1,5 @@
 body {
-    background-color: #9b9aff;
+    background-color: #abaafe;
 }
 
 .container {
@@ -50,13 +50,13 @@ img {
 
 
 .navbar {
-    background-color: #60a8fa;
+    background-color: #ffffff;
 }
 
 .navbar a {
-  color: white;
+  color: rgb(61, 2, 255);
 }
 
 .navbar a:hover {
-  color: #3842f8;
+  color: #90a3ff;
 }
